@@ -1,0 +1,21 @@
+﻿<Window x:Class="_304555_Math_Tutor_Summative.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_304555_Math_Tutor_Summative"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="lblQuestion"/>
+        <Button x:Name="btnQuestion" Click="BtnQuestion_Click" Content="Generate Question"/>
+        <TextBox x:Name="txtAnswer" Text="Enter Answer"/>
+        <Button x:Name="btnAnswer" Click="BtnAnswer_Click" Content="Check Answer"/>
+        <Label x:Name="lblOutput"/>
+
+
+
+
+
+    </StackPanel>
+</Window>
